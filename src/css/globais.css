@@ -10,7 +10,7 @@ html {
 
 body {
   background-color: var(--cor-fundo-cinza-escuro);
-  
+  min-height: 100vh;
   font-family: var(--fonte-primaria);
   font-size: var(--fonte-normal);
 }
@@ -21,7 +21,7 @@ body {
   background-size: cover;
   background-position: center;
   
-  z-index: -1;
+  
 }
 
 .container {
@@ -79,6 +79,7 @@ body {
   
 }
 .section {
+ 
   background-image: url("../imagens/homeImg.png");
   background-size: cover;
   background-position: center;
